@@ -80,3 +80,9 @@ sourceSets {
         }
     }
 }
+
+        java {
+            srcDirs += 'src/client/java'
+        }
+    }
+}
