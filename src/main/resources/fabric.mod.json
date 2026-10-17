@@ -1,10 +1,9 @@
-mv src/client/java src/main/
 {
   "schemaVersion": 1,
   "id": "chatmod",
-  "version": "${version}",
+  "version": "1.0.0",
   "name": "Chat Mod",
-  "description": "Автоматически добавляет случайные смайлики в конец сообщений чата.",
+  "description": "Автоматически добавляет случайные смайлики в чат",
   "authors": [
     "qwalsss"
   ],
@@ -13,7 +12,7 @@ mv src/client/java src/main/
   "icon": "assets/chatmod/icon.png",
   "environment": "client",
   "entrypoints": {
-    "main": [
+    "client": [
       "ru.qwalsss.chatmod.ChatModInitializer"
     ]
   },
@@ -21,6 +20,6 @@ mv src/client/java src/main/
   "depends": {
     "fabricloader": ">=0.19.5",
     "minecraft": "~1.21.11",
-    "java": ">=21",    "fabric-api": "*"
+    "java": ">=21"
   }
 }
