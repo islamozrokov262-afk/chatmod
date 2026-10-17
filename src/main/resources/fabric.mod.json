@@ -1,3 +1,4 @@
+mv src/client/java src/main/
 {
   "schemaVersion": 1,
   "id": "chatmod",
@@ -20,7 +21,6 @@
   "depends": {
     "fabricloader": ">=0.19.5",
     "minecraft": "~1.21.11",
-    "java": ">=21",
-    "fabric-api": "*"
+    "java": ">=21",    "fabric-api": "*"
   }
 }
